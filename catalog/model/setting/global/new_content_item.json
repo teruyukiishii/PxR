@@ -1,0 +1,389 @@
+{
+    "catalogItem": {
+        "ns": "catalog/model/setting/global",
+        "name": "publishing-setting",
+        "description": "システム全体のコンテンツの定義です。",
+        "_code": {
+            "_value": 208,
+            "_ver": null
+        },
+        "inherit": null
+    },
+    "template": {
+        "prop": [
+            {
+                "key": "platform-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "PXRエコシステム基盤呼称"
+            },
+            {
+                "key": "portal-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "個人ポータル呼称"
+            },
+            {
+                "key": "coin-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "PXRコイン呼称"
+            },
+            {
+                "key": "coin-unit-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "対価の単位"
+            },
+            {
+                "key": "book-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "My-Condition-Book呼称"
+            },
+            {
+                "key": "catalog-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "My-Condition-Dataカタログ呼称"
+            },
+            {
+                "key": "pxr-root-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "流通制御サービスプロバイダーの呼称"
+            },
+            {
+                "key": "region-root-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "領域運営サービスプロバイダーの名称"
+            },
+            {
+                "key": "data-trader-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "データ取引サービスプロバイダーの呼称"
+            },
+            {
+                "key": "data-consumer-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "データコンシューマーの呼称"
+            },
+            {
+                "key": "app-p-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "アプリケーションプロバイダーの呼称"
+            },
+            {
+                "key": "wf-p-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "ワークフロープロバイダーの呼称"
+            },
+            {
+                "key": "workflow-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "ワークフローの呼称"
+            },
+            {
+                "key": "region-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "regionの呼称"
+            },
+            {
+                "key": "region-personal-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "個人ポータルにおけるRegionの呼称"
+            },
+            {
+                "key": "service-asset-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "Region内のAPP/WFなど総称"
+            },
+            {
+                "key": "region-trader-alliance-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "領域運営SPとデータ取引SPの提携の呼称"
+            },
+            {
+                "key": "individual-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "個人の呼称"
+            },
+            {
+                "key": "block-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "blockの呼称"
+            },
+            {
+                "key": "terms_of_service",
+                "type": {
+                    "of": "item",
+                    "_code": null,
+                    "candidate": {
+                        "ns": null,
+                        "_code": [
+                            {
+                                "_value": 61,
+                                "_ver": 1
+                            }
+                        ],
+                        "base": null
+                    }
+                },
+                "description": "利用規約"
+            },
+            {
+                "key": "help_contact",
+                "type": {
+                    "of": "item",
+                    "_code": null,
+                    "candidate": {
+                        "ns": null,
+                        "_code": [
+                            {
+                                "_value": 61,
+                                "_ver": 1
+                            }
+                        ],
+                        "base": null
+                    }
+                },
+                "description": "ヘルプ・問い合わせ"
+            },
+
+            {
+                "key": "management_id_format_errormessage",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "運営ポータル群のIDフォーマットエラーメッセージ"
+            },
+            {
+                "key": "management_password_format_errormessage",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "運営ポータル群のパスワードフォーマットエラーメッセージ"
+            },
+            {
+                "key": "pxr_id_format_errormessage",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "PXR-IDフォーマットエラーメッセージ"
+            },
+            {
+                "key": "pxr_id_password_format_errormessage",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "PXR-IDのパスワードフォーマットエラーメッセージ"
+            },
+
+            {
+                "key": "onboarding_start",
+                "type": {
+                    "of": "item",
+                    "_code": null,
+                    "candidate": {
+                        "ns": null,
+                        "_code": [
+                            {
+                                "_value": 61,
+                                "_ver": 1
+                            }
+                        ],
+                        "base": null
+                    }
+                },
+                "description": "個人ポータル開始時のオンボーディング記載内容"
+            },
+            {
+                "key": "onboarding_store",
+                "type": {
+                    "of": "item",
+                    "_code": null,
+                    "candidate": {
+                        "ns": null,
+                        "_code": [
+                            {
+                                "_value": 61,
+                                "_ver": 1
+                            }
+                        ],
+                        "base": null
+                    }
+                },
+                "description": "個人ポータル蓄積設定時のオンボーディング記載内容"
+            },
+            {
+                "key": "management_initial_login_description",
+                "type": {
+                    "of": "item",
+                    "_code": null,
+                    "candidate": {
+                        "ns": null,
+                        "_code": [
+                            {
+                                "_value": 61,
+                                "_ver": 1
+                            }
+                        ],
+                        "base": null
+                    }
+                },
+                "description": "運営ポータル：初回ログインURL通知文書説明文"
+            },
+            {
+                "key": "personal_initial_login_description",
+                "type": {
+                    "of": "item",
+                    "_code": null,
+                    "candidate": {
+                        "ns": null,
+                        "_code": [
+                            {
+                                "_value": 61,
+                                "_ver": 1
+                            }
+                        ],
+                        "base": null
+                    }
+                },
+                "description": "Book開設時のQRコード通知文書説明文"
+            },
+            {
+                "key": "personal_account_delete_ng_message",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "個人ポータル：アカウント削除できない設定時の表示メッセージ内容"
+            },
+            {
+                "key": "service-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "サービス名"
+            },
+            {
+                "key": "service-p-name",
+                "type": {
+                    "of": "string",
+                    "format": null,
+                    "unit": null,
+                    "candidate": null
+                },
+                "description": "サービスポータルの呼称"
+            }
+        ],
+        "value": null
+    },
+    "inner": null,
+    "attribute": null
+}
