@@ -21,14 +21,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run: pushd pxr-operator-service
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm i
-    - run: npm run build
-    - run: npm run jest-clear
-    - run: npm run test:unit
-    - run: popd
+        cache-dependency-path: ./pxr-operator-service/package-lock.json
+    - run: cd pxr-operator-service && npm i
+    - run: cd pxr-operator-service && npm run build
+    - run: cd pxr-operator-service && npm run jest-clear
+    - run: cd pxr-operator-service && npm run test:unit
